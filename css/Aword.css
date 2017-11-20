@@ -1,0 +1,81 @@
+body{
+    font-size: 12px;
+    color: #000;
+    line-height: 1.6;
+    background-image:url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color:#000;
+}
+a:hover{
+    text-decoration:none;
+}
+/*导航*/
+header{
+    background-color: rgba(255,255,255,0.9);
+    height: 48px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+header li>a{
+    color: #8E8E91;
+}
+header li>b{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #CACACB;
+}
+/*主体*/
+#main #border{
+    padding: 5px;
+    width: 50%;
+    min-height: 500px;
+    background: #ffffff;
+}
+#main #border>#txt{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 490px;
+    border: 2px dashed #dddddd;
+    padding: 30px 20px;
+}
+#main #border>#txt p{
+    text-align: left;
+    text-indent:24px;
+}
+#main #border>#txt .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#main #border>#txt .author{
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 30px;
+}
+#main #border >#txt .text{
+    text-align: center;
+}
+#main #border>#txt button{
+    display:block;
+    margin: 60px auto;
+}
+/*底部导航*/
+#footer{
+    background: #ffffff;
+    height: 80px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+#footer li a{
+   line-height: 80px;
+    text-decoration:none;
+    color: #999999;
+}

@@ -1,0 +1,183 @@
+body{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    background-image:url(../img/bg-0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+a{
+    color:#000;
+}
+a:hover{
+    text-decoration:none;
+}
+/*导航栏*/
+header{
+    background-color: rgba(255,255,255,0.9);
+    height: 48px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+header li>a{
+    color: #8E8E91;
+}
+header li>b{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #CACACB;
+}
+/*voice—start声音页面*/
+#voice{
+    margin-left:18%;
+}
+#voice h3{
+    margin-left:-80px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#voice .list_box{
+    float: left;
+    margin: 0 17px 30px;
+    width: 250px;
+    background: #fff;
+    position: relative;
+
+}
+#voice .list_box div{
+    margin: 5px;
+}
+.box_list_img {
+    width: 250px;
+    height: 133px;
+    overflow: hidden;
+    float: left;
+}
+.cover_play {
+    width: 250px;
+    height: 133px;
+    background: url(../img/cover_play.png)no-repeat 50% 50% #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    opacity: 0.7;
+}
+.list_box:hover .cover_play{
+    display: block;
+}
+/*voice页面*/
+.voice_background{
+    width: 100%;
+    height:400px;
+    background:#fff ;
+    margin-top: 50px;
+    margin-left: 69px;
+    padding: 5px;
+    position: relative;
+
+}
+/*更新图片*/
+.update {
+    background-image: url("../img/gengxin.png");
+    width: 120px;
+    height: 120px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/*背景板*/
+.voice_border{
+    width: 100%;
+    height: 390px;
+    border:1px dashed #ddd;
+    text-align: center;
+    padding: 0 25px;
+}
+/*渐变处理*/
+.gradient{
+    width: 500px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0 50px 0 ;
+    letter-spacing: 4px;
+    font: normal 26px/1 Verdana, Helvetica;
+    position: relative;
+    color: #000000;
+    font-weight: bold;
+}
+.gradient:before{
+     background-color: #777;
+     content: "";
+     height: 1px;
+     position: absolute;
+     top: 15px;
+     width: 100px;
+     background-image: -webkit-linear-gradient(right, #777, #fff);
+     left: 0;
+ }
+.gradient:after{
+    background-color: #777;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    background-image: -webkit-linear-gradient(left, #777, #fff);
+    right: 0;
+}
+/*音频*/
+.res{
+    margin: 80px 0 30px 0;
+}
+/*精灵图*/
+.map_box{
+    position: relative;
+}
+.map{
+    margin: 0 auto;
+    height: 16px;
+    background: url("../img/abg.png") no-repeat;
+    position: absolute;
+    left:185px;
+}
+.a1{background: url("../img/abg.png") no-repeat 0 0}
+.a2{background: url("../img/abg.png") no-repeat 0 -16px}
+.a3{background: url("../img/abg.png") no-repeat 0 -32px}
+.a4{background: url("../img/abg.png") no-repeat 0 -48px}
+.a5{background: url("../img/abg.png") no-repeat 0 -64px}
+.a6{background: url("../img/abg.png") no-repeat 0 -80px}
+.map a{
+      float: left;
+      font-size: 12px;
+      padding-left: 17px;
+      line-height: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin: 0 6px 0  0;
+  }
+.map_box button{
+    margin-top: 50px;
+}
+/*尾部导航*/
+#footer{
+    background: #ffffff;
+    height: 80px;
+    margin-top: 180px;
+    font-size: 20px;
+
+}
+#footer li a{
+    line-height: 80px;
+    text-decoration:none;
+    color: #999999;
+}
+
